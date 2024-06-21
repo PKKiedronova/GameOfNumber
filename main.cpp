@@ -12,5 +12,8 @@ using namespace std;
     tajneCislo = rand ()%5+1; //nahodne od1 do 5
     cout << "Zadej svůj typ na tajné číslo: ";
     cin >> hracovoCislo;
+    if (tajneCislo == hracovoCislo){
+        cout << GREEN << "Spravně!" << WHITE << endl;
+    }else cout << RED << "Neuhodl!" << WHITE << endl;
     return 0;
 }
