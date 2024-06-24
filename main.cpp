@@ -13,7 +13,7 @@ using namespace std;
     cout << "Zadej svůj typ na tajné číslo: ";
     cin >> hracovoCislo;
     if (tajneCislo == hracovoCislo){
-        cout << GREEN << "Spravně!" << WHITE << endl;
+        cout << BLUE << "Spravně!"<< WHITE << endl;
     }else cout << RED << "Neuhodl!" << WHITE << endl;
     return 0;
 }
